@@ -2,7 +2,7 @@
   "name": "react-router",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://leocai00.github.io/my-app",
+  "homepage": "https://leocai00.github.io/info340-ps-7",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "d3": "^4.13.0",
@@ -14,11 +14,11 @@
     "reactstrap": "^5.0.0-beta"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
